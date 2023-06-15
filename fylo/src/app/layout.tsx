@@ -18,7 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={localStorage.getItem("theme") ?? "dark"}>
+    <html
+      lang="en"
+      className={`scroll-smooth ${localStorage?.getItem("theme") ?? "dark"}`}
+    >
       <Head>
         <title>Fylo</title>
         <meta about="Some app for fun" />
