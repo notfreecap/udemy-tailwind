@@ -19,6 +19,9 @@ module.exports = {
         grayshBlue: "hsl(229, 8%, 60%)",
         vaeryDarkBlue: "hsl(229, 31%, 21%)",
       },
+      backgroundImage: () => ({
+        dots: `url('/images/bg-dots.svg')`,
+      }),
     },
   },
   plugins: [],
